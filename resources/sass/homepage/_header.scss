@@ -1,5 +1,4 @@
-$text-color-button: #B2D235;
-$background-color-button: #B2D235;
+$main-color: #B2D235;
 
 .navbar-nav {
   justify-content: flex-end;
@@ -16,12 +15,12 @@ li {
 }
 
 .nav-link:hover {
-    border: 1px solid #B2D235;
-    background: #B2D235;
-    border-radius: 42px;
-    color: white !important;
-    padding-left:20px !important ;
-    padding-right:15px !important ;
+  border: 1px solid $main-color;
+  background: $main-color;
+  border-radius: 42px;
+  color: white !important;
+  padding-left:20px !important ;
+  padding-right:15px !important ;
 }
 
 @media (max-width: 992px) {

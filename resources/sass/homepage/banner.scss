@@ -1,0 +1,48 @@
+.banner {
+  height: 555px;
+  background-size: cover;
+  object-fit: cover;
+  background-image:url("http://localhost/scaford-hapolearn/resources/assets/images/banner.png") ;
+
+  .content {
+    padding-top: 6%;
+    width: 45%;
+    padding-left: 22px;
+    align-items: center;
+
+    .content-title-2 {
+      font-weight: Bold;
+    }
+
+    .content-item {
+      align-items: center;
+      color: #11114E;
+      text-transform: capitalize;
+      font-size: 40px;
+    }
+
+    .content-description {
+      margin-top: 26px;
+      width: 50%;
+      font-size: 20px;
+    }
+  }
+
+  .content-btn {
+    margin-top: 26px;
+    width: 60%;
+    background: $main-color;
+    border: 1px solid $main-color;
+    border-radius: 42px;
+    border-top: solid gray;
+    text-align: center;
+
+    a {
+      text-decoration: none;
+      color: white;
+      text-transform: capitalize;
+      font-size: 30px;
+    }
+  }
+
+}
