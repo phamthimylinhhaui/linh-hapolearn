@@ -1,4 +1,13 @@
 $main-color: #B2D235;
+.main-header {
+  height: 100px;
+
+  .navbar {
+    .logo-image {
+      margin: auto;
+    }
+  }
+}
 
 .navbar-nav {
   justify-content: flex-end;
@@ -19,10 +28,35 @@ li {
   background: $main-color;
   border-radius: 42px;
   color: white !important;
-  padding-left:20px !important ;
-  padding-right:15px !important ;
 }
 
-@media (max-width: 992px) {
-	// TODO
+@media (max-width: 991px) {
+  .navbar-nav {
+    border-top: 1px solid $main-color;
+
+    .nav-item {
+      border-bottom: 1px gray solid;
+
+      .nav-link {
+        font-weight: 700;
+      }
+
+      .nav-link:hover {
+        border-radius: 42px;
+        color: $main-color !important;
+        border: 1px solid #F8F9FA;
+        background: #F8F9FA;
+      }
+    }
+  }
+
+}
+@media (max-width: 768px) {
+    // TODO
+}
+
+@media (max-width: 375px) {
+    .navbar {
+        display: table-header-group;;
+    }
 }

@@ -1,12 +1,11 @@
 {
     "/js/app.js": "/js/app.js",
     "/css/app.css": "/css/app.css",
+    "/images/banner.png": "/images/banner.png",
+    "/images/hapo.png": "/images/hapo.png",
     "/images/logo.png": "/images/logo.png",
     "/fonts/utm_bryantlg-webfont.woff": "/fonts/utm_bryantlg-webfont.woff",
     "/fonts/utm_bryantlg-webfont.woff2": "/fonts/utm_bryantlg-webfont.woff2",
     "/fonts/UTM_BryantLG.ttf": "/fonts/UTM_BryantLG.ttf",
-    "/fonts/UTM_BryantLG_B.ttf": "/fonts/UTM_BryantLG_B.ttf",
-    "/images/banner.png": "/images/banner.png",
-    "/images/hapo.png": "/images/hapo.png",
-    "/images/banner1.png": "/images/banner1.png"
+    "/fonts/UTM_BryantLG_B.ttf": "/fonts/UTM_BryantLG_B.ttf"
 }
