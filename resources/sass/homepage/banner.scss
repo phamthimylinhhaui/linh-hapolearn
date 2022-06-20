@@ -1,37 +1,45 @@
 .banner {
   margin-top: -4px;
-  height: 555px;
-  background-size: cover;
-  object-fit: cover;
-  background-image:url("http://localhost/scaford-hapolearn/resources/assets/images/banner.png") ;
 
-  .content {
-    padding-top: 6%;
-    width: 45%;
-    padding-left: 22px;
+  .container-banner {
+    background-size: 100% 100%;
+    padding: 60px 30px;
+    object-fit: cover;
+    background-image: url("http://localhost/linh-hapolearn/resources/assets/images/banner.png");
+  }
+
+    .effect-banner {
+    background-image: linear-gradient(white, gray);
+    padding: 5%;
+  }
+}
+
+.content {
+  width: 45%;
+  padding-left: 22px;
+  align-items: center;
+
+  .content-title-2 {
+    font-weight: Bold;
+    font-size: 40px;
+  }
+
+  .content-item {
     align-items: center;
+    color: #11114E;
+    text-transform: capitalize;
+    font-size: 40px;
+  }
 
-    .content-title-2 {
-      font-weight: Bold;
-    }
-
-    .content-item {
-      align-items: center;
-      color: #11114E;
-      text-transform: capitalize;
-      font-size: 40px;
-    }
-
-    .content-description {
-      margin-top: 26px;
-      width: 50%;
-      font-size: 20px;
-    }
+  .content-description {
+    margin-top: 26px;
+    width: 50%;
+    font-size: 20px;
   }
 
   .content-btn {
     margin-top: 26px;
-    width: 60%;
+    width: 70%;
     background: $main-color;
     border: 1px solid $main-color;
     border-radius: 42px;
@@ -43,7 +51,71 @@
       color: white;
       text-transform: capitalize;
       font-size: 30px;
+      padding: 0 10px;
+    }
+  }
+}
+
+@media (max-width: 1106px) {
+  .content {
+    width: 50%;
+  }
+}
+
+@media (max-width: 915px) {
+  .content {
+    .content-btn,
+    .content-description {
+      width: 75%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .banner {
+    margin-top: -27px;
+
+    .container-banner .content {
+      width: 65%;
     }
   }
 
+  .content-title-1,
+  .content-title-2 {
+    font-size: 30px !important;
+  }
+
+  .content-btn {
+    width: 50% !important;
+  }
+
+  .content-description,
+  .btn-start {
+   font-size: 16px !important;
+  }
+}
+@media (max-width: 375px) {
+  .banner {
+    position: relative;
+    margin-top: -45px;
+  }
+
+  .content {
+    width: 100% !important;
+    position: absolute;
+    bottom: 20px;
+
+    .content-title-1,
+    .content-title-2 {
+      font-size: 25px !important;
+    }
+
+    .content-btn {
+      margin-top: 0px;
+    }
+  }
+
+  .effect-banner {
+    height: 250px;
+  }
 }
