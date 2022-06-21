@@ -66,9 +66,11 @@ li {
   .collapse:not(.show) {
     display: none;
   }
+
   .navbar-toggler {
     display: block;
   }
+
   .navbar {
     display: flex;
     justify-content: space-between;
