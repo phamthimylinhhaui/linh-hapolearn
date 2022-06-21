@@ -1,3 +1,12 @@
+@font-face {
+  /*Tên font tự đặt*/
+  font-family: UTM BryantLG;
+  src: url('../../assets/fonts/UTM_BryantLG.ttf');
+  src: url('../../assets/fonts/utm_bryantlg-webfont.woff');
+  src: url('../../assets/fonts/utm_bryantlg-webfont.woff2');
+  src: url('../../assets/fonts/UTM_BryantLG_B.ttf');
+}
+
 .banner {
   margin-top: -4px;
 
@@ -20,7 +29,8 @@
   align-items: center;
 
   .content-title-2 {
-    font-weight: Bold;
+    font-family: UTM BryantLG;
+    font-weight: 900 !important;
     font-size: 40px;
   }
 
