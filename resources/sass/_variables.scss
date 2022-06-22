@@ -30,6 +30,15 @@ main {
 //custom
 $main-color: #B2D235;
 
+@font-face {
+  font-family: UTM BryantLG;
+  src: url('../assets/fonts/UTM_BryantLG.ttf');
+  src: url('../assets/fonts/utm_bryantlg-webfont.woff');
+  src: url('../assets/fonts/utm_bryantlg-webfont.woff2');
+  src: url('../assets/fonts/UTM_BryantLG_B.ttf');
+}
+
+
 .btn-main {
   background-color: #B2D235;
   margin: 1rem auto;
