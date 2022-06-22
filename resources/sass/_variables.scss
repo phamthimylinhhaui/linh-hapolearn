@@ -26,3 +26,16 @@ $cyan: #6cb2eb;
 main {
   min-height: 54vh;
 }
+
+//custom
+$main-color: #B2D235;
+
+.btn-main {
+  background-color: #B2D235;
+  margin: 1rem auto;
+  border-color: #B2D235;
+  border-radius: 1.5rem;
+  padding: 0.5rem 2rem;
+  border-top: solid gray;
+}
+

@@ -14,4 +14,5 @@
         </div>
         <div class="effect-banner"></div>
     </section>
+
 @endsection

@@ -1,5 +1,4 @@
 @font-face {
-  /*Tên font tự đặt*/
   font-family: UTM BryantLG;
   src: url('../../assets/fonts/UTM_BryantLG.ttf');
   src: url('../../assets/fonts/utm_bryantlg-webfont.woff');
@@ -14,7 +13,7 @@
     background-size: 100% 100%;
     padding: 60px 30px;
     object-fit: cover;
-    background-image: url("http://localhost/linh-hapolearn/resources/assets/images/banner.png");
+    background-image: url("../../assets/images/banner.png");
   }
 
     .effect-banner {
@@ -27,6 +26,7 @@
   width: 45%;
   padding-left: 22px;
   align-items: center;
+  line-height: 2;
 
   .content-title-2 {
     font-family: UTM BryantLG;
@@ -42,7 +42,6 @@
   }
 
   .content-description {
-    margin-top: 26px;
     width: 50%;
     font-size: 20px;
   }
@@ -104,6 +103,7 @@
    font-size: 16px !important;
   }
 }
+
 @media (max-width: 375px) {
   .banner {
     position: relative;
@@ -111,17 +111,23 @@
   }
 
   .content {
-    width: 100% !important;
+    width: 100%;
     position: absolute;
-    bottom: 20px;
+    bottom: 5px;
 
     .content-title-1,
     .content-title-2 {
       font-size: 25px !important;
     }
 
+    .content-description {
+      width: 80%;
+    }
+
     .content-btn {
       margin-top: 0px;
+      width: 88%;
+      margin-top: 10px ;
     }
   }
 
