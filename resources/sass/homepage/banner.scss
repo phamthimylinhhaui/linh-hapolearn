@@ -39,13 +39,15 @@
   }
 
   .content-btn {
-    margin-top: 26px;
+    //margin-top: 26px;
     width: 70%;
-    background: $main-color;
-    border: 1px solid $main-color;
-    border-radius: 42px;
-    border-top: solid gray;
+    //background: $main-color;
+    //border: 1px solid $main-color;
+    //border-radius: 42px;
+    //border-top: solid gray;
     text-align: center;
+    @extend .btn-main;
+    margin: 1.5em 0;
 
     a {
       text-decoration: none;
@@ -91,7 +93,7 @@
   }
 
   .content-description,
-  .btn-start {
+  .content-btn .btn-start {
    font-size: 16px !important;
   }
 }
@@ -105,7 +107,7 @@
   .content {
     width: 100%;
     position: absolute;
-    bottom: 5px;
+    top: 7em;
 
     .content-title-1,
     .content-title-2 {
@@ -117,13 +119,16 @@
     }
 
     .content-btn {
-      margin-top: 0px;
       width: 88%;
       margin-top: 10px ;
+
+      .btn-start {
+        font-size: 18px;
+      }
     }
   }
 
   .effect-banner {
-    height: 250px;
+    height: 20em;
   }
 }
