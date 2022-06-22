@@ -72,16 +72,16 @@
   }
 }
 
-@media (max-width: 915px) {
+@media (max-width: 915px) and (min-width: 769px) {
   .content {
     .content-btn,
     .content-description {
-      width: 75%;
+      width: 100%;
     }
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 376px){
   .banner {
     margin-top: -27px;
 
