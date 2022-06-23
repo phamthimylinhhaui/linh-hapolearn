@@ -5,7 +5,7 @@
     background-size: 100% 100%;
     padding: 60px 30px;
     object-fit: cover;
-    background-image: url("../../assets/images/banner.png");
+    background-image: url("/images/banner.png");
   }
 
     .effect-banner {
@@ -22,8 +22,12 @@
 
   .content-title-2 {
     font-family: UTM BryantLG;
-    font-weight: 900 !important;
+    font-weight: 400;
     font-size: 40px;
+
+    span {
+      font-weight: 700;
+    }
   }
 
   .content-item {

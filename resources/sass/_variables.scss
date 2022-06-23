@@ -31,13 +31,18 @@ main {
 $main-color: #B2D235;
 
 @font-face {
-  font-family: UTM BryantLG;
-  src: url('../assets/fonts/UTM_BryantLG.ttf');
-  src: url('../assets/fonts/utm_bryantlg-webfont.woff');
-  src: url('../assets/fonts/utm_bryantlg-webfont.woff2');
-  src: url('../assets/fonts/UTM_BryantLG_B.ttf');
+  font-family: 'UTM BryantLG';
+  src: url('/fonts/UTM_BryantLG.ttf');
+  font-weight: 400;
+  font-style: normal;
 }
 
+@font-face {
+  font-family: 'UTM BryantLG';
+  src: url('/fonts/UTM_BryantLG_B.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
 
 .btn-main {
   background-color: #B2D235;
