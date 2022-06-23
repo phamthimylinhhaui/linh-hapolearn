@@ -38,9 +38,8 @@ $main-color: #B2D235;
   src: url('../assets/fonts/UTM_BryantLG_B.ttf');
 }
 
-
 .btn-main {
-  background-color: #B2D235;
+  background-color: $main-color;
   border-color: #B2D235;
   border-radius: 1.5em;
   padding: 0.5em 1.5em;
