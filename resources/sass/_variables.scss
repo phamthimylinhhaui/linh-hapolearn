@@ -32,18 +32,16 @@ $main-color: #B2D235;
 
 @font-face {
   font-family: UTM BryantLG;
-  src: url('../assets/fonts/UTM_BryantLG.ttf');
-  src: url('../assets/fonts/utm_bryantlg-webfont.woff');
-  src: url('../assets/fonts/utm_bryantlg-webfont.woff2');
-  src: url('../assets/fonts/UTM_BryantLG_B.ttf');
+  src: url('/fonts/UTM_BryantLG.ttf');
+  src: url('/fonts/utm_bryantlg-webfont.woff');
+  src: url('/fonts/utm_bryantlg-webfont.woff2');
+  src: url('/fonts/UTM_BryantLG_B.ttf');
 }
 
-
 .btn-main {
-  background-color: #B2D235;
+  background-color: $main-color;
   border-color: #B2D235;
   border-radius: 1.5em;
   padding: 0.5em 1.5em;
   box-shadow: 0px 4px 4px 0px #00000040 inset;
 }
-

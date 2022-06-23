@@ -5,7 +5,7 @@
     background-size: 100% 100%;
     padding: 60px 30px;
     object-fit: cover;
-    background-image: url("../../assets/images/banner.png");
+    background-image: url("/images/banner.png");
   }
 
     .effect-banner {
@@ -105,7 +105,7 @@
   .content {
     width: 100%;
     position: absolute;
-    bottom: 5px;
+    bottom: 72px;
 
     .content-title-1,
     .content-title-2 {
@@ -124,6 +124,6 @@
   }
 
   .effect-banner {
-    height: 250px;
+    height: 20rem;
   }
 }

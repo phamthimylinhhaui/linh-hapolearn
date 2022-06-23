@@ -6,7 +6,7 @@
             <div class="content">
                 <div class="content-title-1 content-item">learn anytime, anywhere</div>
                 <div class="content-title-2">at HapoLearning
-                    <img src="http://localhost/linh-hapolearn/resources/assets/images/hapo.png">                    !
+                    <img src="{{ asset('images/hapo.png') }}" alt="icon-haposoft">                    !
                 </div>
                 <div class="content-description ">interactive lessons, "on-the-go" practice, peer support</div>
                 <div class="content-btn"><a href="#" class="btn-start">start learning now!</a></div>
@@ -16,7 +16,7 @@
     </section>
 
     <div class="container main">
-        <div class="row row-cols-1 row-cols-xs-1 row-cols-sm-1 row-cols-md-1 row-cols-xl-3 g-4">
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-xl-3 g-4">
             <div class="col">
                 <div class="card h-100">
                     <div class="card-img">
@@ -73,7 +73,7 @@
 
     <div class="container">
         <div class="heading-courses">Other courses</div>
-        <div class="row row-cols-1 row-cols-xs-1 row-cols-sm-1 row-cols-md-1 row-cols-xl-3 g-4">
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-xl-3 g-4">
             <div class="col">
                 <div class="card h-100">
                     <div class="card-img">
@@ -131,6 +131,7 @@
             <span class="course-text">View all our course</span>
             <i class="fas fa-arrow-right"></i>
         </div>
-
     </div>
+
+    @include('layouts.why_happlearn')
 @endsection
