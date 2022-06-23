@@ -16,7 +16,7 @@
     </section>
 
     <div class="container main">
-        <div class="row row-cols-1 row-cols-xs-1 row-cols-sm-1 row-cols-md-1 row-cols-xl-3 g-4">
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-xl-3 g-4">
             <div class="col">
                 <div class="card h-100">
                     <div class="card-img">
@@ -73,7 +73,7 @@
 
     <div class="container">
         <div class="heading-courses">Other courses</div>
-        <div class="row row-cols-1 row-cols-xs-1 row-cols-sm-1 row-cols-md-1 row-cols-xl-3 g-4">
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-xl-3 g-4">
             <div class="col">
                 <div class="card h-100">
                     <div class="card-img">
@@ -131,6 +131,5 @@
             <span class="course-text">View all our course</span>
             <i class="fas fa-arrow-right"></i>
         </div>
-
     </div>
 @endsection
