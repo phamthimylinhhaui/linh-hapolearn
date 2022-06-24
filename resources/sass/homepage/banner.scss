@@ -8,7 +8,7 @@
     background-image: url("/images/banner.png");
   }
 
-    .effect-banner {
+  .effect-banner {
     background-image: linear-gradient(white, gray);
     padding: 5%;
   }
@@ -20,14 +20,10 @@
   align-items: center;
   line-height: 2;
 
-  .content-title-2 {
+  .content-title {
     font-family: UTM BryantLG;
-    font-weight: 400;
+    font-weight: 900;
     font-size: 40px;
-
-    span {
-      font-weight: 700;
-    }
   }
 
   .content-item {
@@ -39,14 +35,17 @@
 
   .content-description {
     width: 50%;
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .content-btn {
+    margin-top: 26px;
     width: 70%;
+    background: $main-color;
+    border: 1px solid $main-color;
+    border-radius: 42px;
+    border-top: solid gray;
     text-align: center;
-    @extend .btn-main;
-    margin: 1.5em 0;
 
     a {
       text-decoration: none;
@@ -64,16 +63,7 @@
   }
 }
 
-@media (max-width: 915px) and (min-width: 769px) {
-  .content {
-    .content-btn,
-    .content-description {
-      width: 100%;
-    }
-  }
-}
-
-@media (max-width: 768px) and (min-width: 376px){
+@media (min-width: 577px) and (max-width: 991px) {
   .banner {
     margin-top: -27px;
 
@@ -81,53 +71,61 @@
       width: 65%;
     }
   }
+  .container-banner .content
+  .content-item {
+    font-size: 30px;
+  }
 
-  .content-title-1,
-  .content-title-2 {
-    font-size: 30px !important;
+  .container-banner .content .content-title {
+    font-size: 30px;
   }
 
   .content-btn {
-    width: 50% !important;
+    width: 50%;
   }
 
-  .content-description,
-  .content-btn .btn-start {
-   font-size: 16px !important;
+  .container-banner .content .content-description {
+    font-size: 16px;
+  }
+
+  .container-banner .content .btn-start {
+    font-size: 16px;
   }
 }
 
-@media (max-width: 375px) {
+@media (min-width: 375px) and (max-width: 576px){
   .banner {
     position: relative;
-    margin-top: -45px;
   }
 
   .content {
     width: 100%;
     position: absolute;
-    top: 7em;
+    bottom: 5rem;
 
-    .content-title-1,
-    .content-title-2 {
-      font-size: 25px !important;
+    .content-item {
+      font-size: 25px;
+    }
+
+    .content-title {
+      font-size: 25px;
+      font-family: 'UTM BryantLG';
+      font-weight: 900;
     }
 
     .content-description {
-      width: 80%;
+      width: 70%;
+      font-size: 16px;
     }
 
     .content-btn {
+      margin-top: 0px;
       width: 88%;
       margin-top: 10px ;
-
-      .btn-start {
-        font-size: 18px;
-      }
     }
   }
 
   .effect-banner {
-    height: 20em;
+    height: 20rem;
   }
 }
