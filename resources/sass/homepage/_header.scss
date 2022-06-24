@@ -1,28 +1,31 @@
-$main-color: #B2D235;
-
 .navbar-nav {
   justify-content: flex-end;
+
+  .nav-item {
+    .nav-link {
+      font-size: 16px;
+      text-transform: uppercase;
+    }
+    .nav-link:hover {
+      border: 1px solid $main-color;
+      background: $main-color;
+      border-radius: 30px;
+      color: white;
+    }
+  }
 }
 
-.example {
-  display: flex;
-  align-items: center;
-  min-height: 54vh;
+@media (min-width: 577px) and (max-width: 991px) {
+
 }
 
-li {
-  margin: 10px;
+@media (min-width: 375px) and (max-width: 576px) {
+  .navbar-brand {
+    width: 50%;
+
+    .logo-image {
+      width: 100%;
+    }
+  }
 }
 
-.nav-link:hover {
-  border: 1px solid $main-color;
-  background: $main-color;
-  border-radius: 42px;
-  color: white !important;
-  padding-left:20px !important ;
-  padding-right:15px !important ;
-}
-
-@media (max-width: 992px) {
-	// TODO
-}

@@ -1,36 +1,46 @@
 .banner {
-  height: 555px;
-  background-size: cover;
-  object-fit: cover;
-  background-image:url("http://localhost/scaford-hapolearn/resources/assets/images/banner.png") ;
+  margin-top: -4px;
 
-  .content {
-    padding-top: 6%;
-    width: 45%;
-    padding-left: 22px;
+  .container-banner {
+    background-size: 100% 100%;
+    padding: 60px 30px;
+    object-fit: cover;
+    background-image: url("/images/banner.png");
+  }
+
+  .effect-banner {
+    background-image: linear-gradient(white, gray);
+    padding: 5%;
+  }
+}
+
+.content {
+  width: 45%;
+  padding-left: 22px;
+  align-items: center;
+  line-height: 2;
+
+  .content-title {
+    font-family: UTM BryantLG;
+    font-weight: 900;
+    font-size: 40px;
+  }
+
+  .content-item {
     align-items: center;
+    color: #11114E;
+    text-transform: capitalize;
+    font-size: 40px;
+  }
 
-    .content-title-2 {
-      font-weight: Bold;
-    }
-
-    .content-item {
-      align-items: center;
-      color: #11114E;
-      text-transform: capitalize;
-      font-size: 40px;
-    }
-
-    .content-description {
-      margin-top: 26px;
-      width: 50%;
-      font-size: 20px;
-    }
+  .content-description {
+    width: 50%;
+    font-size: 25px;
   }
 
   .content-btn {
     margin-top: 26px;
-    width: 60%;
+    width: 70%;
     background: $main-color;
     border: 1px solid $main-color;
     border-radius: 42px;
@@ -42,7 +52,80 @@
       color: white;
       text-transform: capitalize;
       font-size: 30px;
+      padding: 0 10px;
+    }
+  }
+}
+
+@media (max-width: 1106px) {
+  .content {
+    width: 50%;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+  .banner {
+    margin-top: -27px;
+
+    .container-banner .content {
+      width: 65%;
+    }
+  }
+  .container-banner .content
+  .content-item {
+    font-size: 30px;
+  }
+
+  .container-banner .content .content-title {
+    font-size: 30px;
+  }
+
+  .content-btn {
+    width: 50%;
+  }
+
+  .container-banner .content .content-description {
+    font-size: 16px;
+  }
+
+  .container-banner .content .btn-start {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 576px){
+  .banner {
+    position: relative;
+  }
+
+  .content {
+    width: 100%;
+    position: absolute;
+    bottom: 5rem;
+
+    .content-item {
+      font-size: 25px;
+    }
+
+    .content-title {
+      font-size: 25px;
+      font-family: 'UTM BryantLG';
+      font-weight: 900;
+    }
+
+    .content-description {
+      width: 70%;
+      font-size: 16px;
+    }
+
+    .content-btn {
+      margin-top: 0px;
+      width: 88%;
+      margin-top: 10px ;
     }
   }
 
+  .effect-banner {
+    height: 20rem;
+  }
 }
