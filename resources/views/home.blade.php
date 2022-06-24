@@ -4,9 +4,9 @@
     <section class="banner">
         <div class="container-banner">
             <div class="content">
-                <div class="content-title-1 content-item">learn anytime, anywhere</div>
-                <div class="content-title-2">at HapoLearning
-                    <img src="{{ asset('images/hapo.png') }}" alt="icon-haposoft">                    !
+                <div class="content-item">learn anytime, anywhere</div>
+                <div class="content-title">at HapoLearning
+                    <img src="{{ asset('images/hapo.png') }}" alt="icon-haposoft">!
                 </div>
                 <div class="content-description ">interactive lessons, "on-the-go" practice, peer support</div>
                 <div class="content-btn"><a href="#" class="btn-start">start learning now!</a></div>
@@ -14,7 +14,6 @@
         </div>
         <div class="effect-banner"></div>
     </section>
-
     <div class="container main">
         <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-xl-3 g-4">
             <div class="col">
