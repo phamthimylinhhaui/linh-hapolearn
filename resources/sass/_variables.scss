@@ -1,41 +1,18 @@
-// Body
-$body-bg: #f8fafc;
-body {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-}
-
-// Typography
-$font-family-sans-serif: 'Nunito', sans-serif;
-$font-size-base: 0.9rem;
-$line-height-base: 1.6;
-
-// Colors
-$blue: #3490dc;
-$indigo: #6574cd;
-$purple: #9561e2;
-$pink: #f66d9b;
-$red: #e3342f;
-$orange: #f6993f;
-$yellow: #ffed4a;
-$green: #38c172;
-$teal: #4dc0b5;
-$cyan: #6cb2eb;
-
-main {
-  min-height: 54vh;
-}
-
 //custom
 $main-color: #B2D235;
 
 @font-face {
-  font-family: UTM BryantLG;
+  font-family: 'UTM BryantLGN';
   src: url('/fonts/UTM_BryantLG.ttf');
-  src: url('/fonts/utm_bryantlg-webfont.woff');
-  src: url('/fonts/utm_bryantlg-webfont.woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'UTM BryantLG';
   src: url('/fonts/UTM_BryantLG_B.ttf');
+  font-weight: 700;
+  font-style: normal;
 }
 
 .btn-main {

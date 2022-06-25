@@ -8,7 +8,7 @@
     background-image: url("/images/banner.png");
   }
 
-    .effect-banner {
+  .effect-banner {
     background-image: linear-gradient(white, gray);
     padding: 5%;
   }
@@ -71,13 +71,17 @@
       width: 65%;
     }
   }
-  .container-banner .content
-  .content-item {
-    font-size: 30px;
-  }
 
-  .container-banner .content .content-title {
-    font-size: 30px;
+  .container-banner {
+    .content {
+      .content-item {
+        font-size: 30px;
+      }
+
+      .content-title {
+        font-size: 30px;
+      }
+    }
   }
 
   .content-btn {
