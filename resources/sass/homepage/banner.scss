@@ -71,25 +71,29 @@
       width: 65%;
     }
   }
-  .container-banner .content
-  .content-item {
-    font-size: 30px;
-  }
 
-  .container-banner .content .content-title {
-    font-size: 30px;
+  .container-banner {
+    .content {
+      .content-item {
+        font-size: 30px;
+      }
+
+      .content-title {
+        font-size: 30px;
+      }
+
+      .content-description {
+        font-size: 16px;
+      }
+
+      .btn-start {
+        font-size: 16px;
+      }
+    }
   }
 
   .content-btn {
     width: 50%;
-  }
-
-  .container-banner .content .content-description {
-    font-size: 16px;
-  }
-
-  .container-banner .content .btn-start {
-    font-size: 16px;
   }
 }
 
