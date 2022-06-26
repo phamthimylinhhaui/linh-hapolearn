@@ -15,4 +15,5 @@
         <div class="effect-banner"></div>
     </section>
 
+    @include('layouts.course')
 @endsection
