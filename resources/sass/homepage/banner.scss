@@ -42,6 +42,80 @@
       color: white;
       text-transform: capitalize;
       font-size: 30px;
+      padding: 0 10px;
+    }
+  }
+}
+
+@media (max-width: 1106px) {
+  .content {
+    width: 50%;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+  .banner {
+    margin-top: -27px;
+
+    .container-banner .content {
+      width: 65%;
+    }
+  }
+
+  .container-banner {
+    .content {
+      .content-item {
+        font-size: 30px;
+      }
+
+      .content-title {
+        font-size: 30px;
+      }
+
+      .content-description {
+        font-size: 16px;
+      }
+
+      .btn-start {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .content-btn {
+    width: 50%;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 576px){
+  .banner {
+    position: relative;
+  }
+
+  .content {
+    width: 100%;
+    position: absolute;
+    bottom: 5rem;
+
+    .content-item {
+      font-size: 25px;
+    }
+
+    .content-title {
+      font-size: 25px;
+      font-family: 'UTM BryantLG';
+      font-weight: 900;
+    }
+
+    .content-description {
+      width: 70%;
+      font-size: 16px;
+    }
+
+    .content-btn {
+      margin-top: 0px;
+      width: 88%;
+      margin-top: 10px ;
     }
   }
 
